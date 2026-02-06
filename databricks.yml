@@ -1,0 +1,16 @@
+bundle:
+  name: cicd_poc
+
+workspace:
+  host: https://dbc-f0feaa5d-d775.cloud.databricks.com
+
+targets:
+  dev:
+    mode: development
+    workspace:
+      root_path: /Users/yush.pokharel@ycotek.com/.bundle/${bundle.name}/${bundle.target}
+  
+  prod:
+    mode: production
+    workspace:
+      root_path: /Users/yush.pokharel@ycotek.com/.bundle/${bundle.name}/${bundle.target}
