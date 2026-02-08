@@ -5,4 +5,6 @@
     ```
     databricks auth profiles
     ```
-3. 
+3. databricks bundle init
+    - default setup with folder structure creation
+4. databricks bundle deploy
