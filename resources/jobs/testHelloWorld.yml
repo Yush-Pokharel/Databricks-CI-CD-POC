@@ -5,7 +5,7 @@ resources:
       tasks:
         - task_key: testHelloWorld
           notebook_task:
-            notebook_path: /Workspace/Users/yush.pokharel@ycotek.com/.bundle/DATABRICKS-CI-CD-POC/dev/files/src/notebooks/helloWorld
+            notebook_path: ../../src/notebooks/helloWorld.ipynb
             source: WORKSPACE
           environment_key: Default
       queue:

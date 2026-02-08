@@ -38,7 +38,7 @@ targets:
     workspace:
       host: https://dbc-f0feaa5d-d775.cloud.databricks.com
       # We explicitly deploy to /Workspace/Users/yush.pokharel@ycotek.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/yush.pokharel@ycotek.com/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Users/yush.pokharel@ycotek.com/PROD_testing_DAB/.bundle/${bundle.name}/${bundle.target}
     variables:
       catalog: workspace
       schema: prod
